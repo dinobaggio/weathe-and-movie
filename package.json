@@ -1,0 +1,40 @@
+{
+  "name": "next-belajar",
+  "version": "1.0.0",
+  "description": "belajar untuk membuat next",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8989",
+    "build": "next build",
+    "start": "next start -p 8989",
+    "test": "jest"
+  },
+  "author": "dino baggio",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "next": "^9.3.0",
+    "nprogress": "^0.2.0",
+    "querystring": "^0.2.0",
+    "react": "^16.10.2",
+    "react-country-flag": "^2.0.1",
+    "react-dom": "^16.10.2",
+    "react-markdown": "^4.2.2",
+    "reactstrap": "^8.0.1",
+    "sweetalert2": "^9.10.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-jest": "^25.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.0"
+  }
+}
