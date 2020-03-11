@@ -6,7 +6,7 @@ import { Fragment } from 'react'
 import NProgress from 'nprogress'
 import { Row, Col, Container } from 'reactstrap'
 import { NavigationHead } from '.'
-// import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.css'
 
 // Router.events.on('routeChangeStart', url => {
 //     return 'Loading ...'
